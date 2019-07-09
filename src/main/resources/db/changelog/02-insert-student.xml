@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="02" author="kuzmos">
+        <insert tableName="student">
+            <column name="firstName">Nagy</column>
+            <column name="lastName">Béla</column>
+            <column name="age">19</column>
+            <column name="address">Miskolc</column>
+        </insert>
+        <insert tableName="student">
+            <column name="firstName">Kiss</column>
+            <column name="lastName">Balázs</column>
+            <column name="age">14</column>
+            <column name="address">Budapest</column>
+        </insert>
+        <insert tableName="student">
+            <column name="firstName">Közepes</column>
+            <column name="lastName">Krisztina</column>
+            <column name="age">20</column>
+            <column name="address">Eger</column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
