@@ -20,7 +20,7 @@
         <source.encoding>UTF-8</source.encoding>
         <swagger-annotations.version>1.5.21</swagger-annotations.version>
         <swagger-codegen-maven-plugin.version>3.0.0</swagger-codegen-maven-plugin.version>
-        <h2.version>1.4.199</h2.version>
+        <h2.version>2.1.210</h2.version>
         <liquibase-core.version>3.6.3</liquibase-core.version>
     </properties>
 
